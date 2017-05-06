@@ -145,7 +145,7 @@ nav ul li a:hover {
 .overlay {
 	position: absolute;
     bottom: 10%;
-    width: 260px;
+    width: 100%;
     text-align: center;
     background-color: #4aaaa5;
     background-color: rgba(74,170,165, 0.7);
@@ -261,12 +261,42 @@ input {
 
 /*980 Portfolio Page*/
 
-/********LEFT OFF HERE*********/
-/*Need to adjust img width and overlays*/
-
+#portfolio-content {
+	position: relative;
+	overflow: auto;
+	height: 1340px;
 }
 
 
+.portfolio-project {
+	width: 370px;
+	height: 200px;
+	margin: 40px 0px 0px 0px;
+	position: absolute;
+}
+
+.project-img {
+	content:url("http://lorempixel.com/370/200/cats/");
+	
+}
+
+#project2 {
+	top: 350px;
+}
+
+#project3 {
+	top: 590px;
+}
+
+#project4 {
+	top: 830px;
+}
+
+#project5 {
+	top: 1070px;
+}
+/*End of 980 Screen Width*/
+}
 
 /*** 768 Screen Width ***/
 @media screen and (max-width: 768px){
@@ -290,7 +320,7 @@ input {
     float: left;
     padding: 20px;
 }
-
+/*End of 768 Screen Width*/
 }
 
 
@@ -309,5 +339,5 @@ input {
 	width: 920px;
 	margin: auto;
 }
-
+/*End of 640 Screen Width*/
 }
