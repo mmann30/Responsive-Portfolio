@@ -210,3 +210,104 @@ footer{
 	border-top: solid 5px #4aaaa5;
 	bottom: 0;
 }
+
+/*** Media Queries ***/
+
+/*** 980 Screen Width ***/
+@media screen and (max-width: 980px){
+
+#header-wrapper {
+	width: 720px;
+	height: 100px;
+	margin: auto;
+	position: relative;	
+}
+
+#content-wrapper {
+	width: 720px;
+	margin: auto;
+}
+
+.main-content {
+	background-color: #ffffff;
+    border: solid 1px #ddd;
+    width: 410px;
+    float: left;
+    padding: 20px;
+}
+
+.main-content p {
+	margin-top: 10px;
+}
+
+/*980 About Page*/
+
+#bio-image {
+	float: none;
+	content:url("http://lorempixel.com/370/250/food/");
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+/* 980 Contact Page*/
+input {
+	width: 370px;
+	border: solid 1px grey;
+	border-radius: 4px;
+	margin: 5px;
+}
+
+/*980 Portfolio Page*/
+
+/********LEFT OFF HERE*********/
+/*Need to adjust img width and overlays*/
+
+}
+
+
+
+/*** 768 Screen Width ***/
+@media screen and (max-width: 768px){
+	
+#header-wrapper {
+	width: 680px;
+	height: 100px;
+	margin: auto;
+	position: relative;	
+}
+
+#content-wrapper {
+	width: 680px;
+	margin: auto;
+}
+
+.main-content {
+	background-color: #ffffff;
+    border: solid 1px #ddd;
+    width: 610px;
+    float: left;
+    padding: 20px;
+}
+
+}
+
+
+
+/*** 640 Screen Width ***/
+@media screen and (max-width: 640px){
+	
+#header-wrapper {
+	width: 820px;
+	height: 100px;
+	margin: auto;
+	position: static;	
+}
+
+#content-wrapper {
+	width: 920px;
+	margin: auto;
+}
+
+}
